@@ -5,6 +5,7 @@ import '../interfaces/base_firebase_repository_interface.dart';
 import '../models/base_model.dart';
 
 // Onde a base do CRUD é implementada
+// Através destes métodos haverá leitura,edição,criação e remoção de registros de collections no CloudFirestore
 
 class BaseFirebaseRepository<Model extends BaseModel>
     implements IBaseFirebaseRepositoryInterface<Model> {
