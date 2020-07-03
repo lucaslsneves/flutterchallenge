@@ -30,3 +30,6 @@
  - UpdatedAt (Data de atualização)
  - title (Título da imagem (por padrão todos os titulos estão recebendo o valor "Título"))
  - description (Descrição da imagem (por padrão todas as descrições estão recebendo o valor "Lorem Ipsum Descrição"))
+
+ Assim que a imagem é adicionada o usuário e redirecionado para a Galeria de fotos onde os as fotos são organizadas por 
+ data de criação (A imagem mais recente no topo).
