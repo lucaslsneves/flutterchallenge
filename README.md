@@ -1,15 +1,23 @@
 # Flutter Challenge
 
-## Telas
+# Telas
 
-- Login
+## Login
+![login](https://user-images.githubusercontent.com/53489804/86472256-42bf0800-bd15-11ea-827b-e9a4a434413e.jpeg)
 
-- Galeria
+## Galeria
+![Galeria](https://user-images.githubusercontent.com/53489804/86472531-ac3f1680-bd15-11ea-97c7-a0df69536ffb.jpeg)
+## Seleção de foto
+![Seleção de fotos](https://user-images.githubusercontent.com/53489804/86472594-c2e56d80-bd15-11ea-9177-5ba599f8ca53.jpeg)
 
-- Seleção de foto
+## Seleção de foto (Foto ja selecionada)
+![foto selecionada](https://user-images.githubusercontent.com/53489804/86472641-dbee1e80-bd15-11ea-9306-e269b7e744db.jpeg)
+ 
+## Reedimensionar foto
+![Reedimensionar](https://user-images.githubusercontent.com/53489804/86472664-e6101d00-bd15-11ea-86d6-ea28e90781e8.jpeg)
 
-- Reedimensionar foto (se quiser)
-
+## Barra de progresso enquanto o arquivo está sendo upado na Storage
+![progresso](https://user-images.githubusercontent.com/53489804/86472734-05a74580-bd16-11ea-8bb2-99482a47e782.jpeg)
 
 ## Sobre
  O App exibe uma galeria de imagens armazenadas em um banco de dados Cloud Firestore - Firebase.
@@ -33,3 +41,6 @@
 
  Assim que a imagem é adicionada o usuário e redirecionado para a Galeria de fotos onde os as fotos são organizadas por 
  data de criação (A imagem mais recente no topo).
+
+O usuário pode selecionar uma imagem para ser adicionada diretamente pela sua câmera ou selecionar uma da sua galeria,
+das duas maneiras será possível reedimenionar a imagem antes de adiciona-la.
