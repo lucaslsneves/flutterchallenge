@@ -1,16 +1,32 @@
-# flutterchallenge
+# Flutter Challenge
 
-A new Flutter project.
+## Telas
 
-## Getting Started
+- Login
 
-This project is a starting point for a Flutter application.
+- Galeria
 
-A few resources to get you started if this is your first Flutter project:
+- Seleção de foto
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Reedimensionar foto (se quiser)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Sobre
+ O App exibe uma galeria de imagens armazenadas em um banco de dados Cloud Firestore - Firebase.
+
+ ## Funcionalidades
+
+ - Login com google
+ - Adição de uma nova imagem
+ - Reedimensionar a imagem antes de adiciona-la 
+
+ Ao adicionar uma nova imagem ela é armazenada no Storage do firebase e um novo registro
+ é criado na Collection chamada images no Cloud Firestore.
+
+ Neste registro são guardados os campos: 
+
+ - url (Url da imagem)
+ - createdAt (Data de criação)
+ - UpdatedAt (Data de atualização)
+ - title (Título da imagem (por padrão todos os titulos estão recebendo o valor "Título"))
+ - description (Descrição da imagem (por padrão todas as descrições estão recebendo o valor "Lorem Ipsum Descrição"))
