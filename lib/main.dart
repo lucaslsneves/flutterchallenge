@@ -68,13 +68,6 @@ class _MyHomePageState extends State<MyHomePage> {
                     var listImages = imageRepository
                         .fromSnapshotToModelList(snapshot.data.documents);
 
-                    switch (snapshot.connectionState) {
-                      
-                      case ConnectionState.waiting:
-                        return Center(child: CircularProgressIndicator());
-                        break;
-                      case ConnectionState.active:
-                      case ConnectionState.done:
                         return ListView.builder(
                             itemCount: listImages.length,
                             itemBuilder: (_, index) {
@@ -99,7 +92,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                 ],
                               );
                             });
-                    }
+                    
                   }
                 },
               ))),

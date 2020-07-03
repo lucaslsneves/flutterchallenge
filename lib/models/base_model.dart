@@ -1,16 +1,19 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import '../interfaces/base_model_interface.dart';
 
+// Todos os models da aplicação irão extender este
+
 class BaseModel implements IBaseModelInterface {
   BaseModel();
-
+  // Cria uma instancia a partir de um map
   BaseModel.fromMap(DocumentSnapshot document);
 
   String id;
   bool isActive = true;
   Timestamp createdAt;
   Timestamp updatedAt;
-
+  
+  // Transforma uma instancia em map 
   @override
   Map toBaseMap() {
     var map = <String, dynamic>{};
@@ -21,7 +24,7 @@ class BaseModel implements IBaseModelInterface {
 
     return map;
   }
-
+  // Cria uma instancia a partir de um map
   @override
   void fromBaseMap(DocumentSnapshot document){
     id = document.documentID;

@@ -1,6 +1,8 @@
 import './base_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 
+// Model da Imagem
+
 class ImageItem extends BaseModel {
 
   String title;

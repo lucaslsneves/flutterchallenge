@@ -4,6 +4,8 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import '../interfaces/base_firebase_repository_interface.dart';
 import '../models/base_model.dart';
 
+// Onde a base do CRUD é implementada
+
 class BaseFirebaseRepository<Model extends BaseModel>
     implements IBaseFirebaseRepositoryInterface<Model> {
   BaseFirebaseRepository({this.fromMap, this.collection});

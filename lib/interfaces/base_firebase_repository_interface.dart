@@ -3,7 +3,7 @@ import 'dart:async';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import './base_model_interface.dart';
 
-// Interface de um CRUD
+// Interface base de um CRUD
 
 abstract class IBaseFirebaseRepositoryInterface<
     Model extends IBaseModelInterface> {

@@ -1,6 +1,6 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-// Interface de um Model
+// Interface base de um Model
 abstract class IBaseModelInterface {
   String documentId();
 
